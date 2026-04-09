@@ -189,7 +189,7 @@ export default function App() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl blur opacity-25 transition duration-1000" />
               <img 
-                src="/profile.jpg" 
+                src="profile.jpg" 
                 alt="Ariq" 
                 className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl grayscale hover:grayscale-0 transition duration-500" 
               />
