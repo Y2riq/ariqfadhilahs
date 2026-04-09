@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const projectsData = [
   {
     title: 'Sistem Monitoring dan Evaluasi Kinerja Klinik dengan Metode Performance Dashboard',
-    image: '/p1.jpg',
+    image: 'public/p1.jpg',
     desc: 'Pengembangan dashboard analitik manajemen klinik berbasis metode Performance Dashboard. Mengintegrasikan grafik real-time untuk pemantauan target layanan dan efisiensi pengambilan keputusan administratif.',
     role: 'Fullstack Developer',
     tech: ['PHP', 'MySQL', 'CSS', 'HTML', 'JavaScript'],
@@ -13,7 +13,7 @@ const projectsData = [
   },
   {
     title: 'Website Company Profile Teman Trip V1',
-    image: '/p3.png', 
+    image: 'public/p3.png', 
     desc: 'Landing page dengan estetika industrial-rustic yang menonjolkan identitas brand kuat melalui tipografi tegas dan alur navigasi yang sederhana namun informatif bagi calon pelancong.',
     role: 'Fullstack Developer',
     tech: ['React', 'Tailwind CSS'],
@@ -21,7 +21,7 @@ const projectsData = [
   },
   {
     title: 'Website Company Profile Teman Trip V2',
-    image: '/p2.png',
+    image: 'public/p2.png',
     desc: 'Iterasi modern dengan elemen visual abstrak dan palet warna dinamis. Mengedepankan aspek user-centric dengan kartu fitur responsif untuk audiens pelancong muda.',
     role: 'Fullstack Developer',
     tech: ['React', 'Tailwind CSS'],
@@ -29,7 +29,7 @@ const projectsData = [
   },
   {
   title: 'Sistem POS Toko Kelontong Berbasis Web',
-  image: '/p4.png',
+  image: 'public/p4.png',
   desc: 'Solusi manajemen inventaris retail dengan fitur scan barcode, pemantauan stok kritis otomatis, dan visualisasi tren omzet bulanan untuk optimasi operasional bisnis.',
   role: 'Fullstack Developer',
   tech: ['Laravel', 'MySQL', 'CSS', 'HTML', 'JavaScript'],
@@ -189,8 +189,8 @@ export default function App() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl blur opacity-25 transition duration-1000" />
               <img 
-                src="profile.jpg" 
-                alt="Ariq" 
+                src="public/profile.jpg" 
+                alt="Profile Picture" 
                 className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl grayscale hover:grayscale-0 transition duration-500" 
               />
             </div>
