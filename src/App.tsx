@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const projectsData = [
   {
     title: 'Sistem Monitoring dan Evaluasi Kinerja Klinik dengan Metode Performance Dashboard',
-    image: 'public/p1.jpg',
+    image: './public/p1.jpg',
     desc: 'Pengembangan dashboard analitik manajemen klinik berbasis metode Performance Dashboard. Mengintegrasikan grafik real-time untuk pemantauan target layanan dan efisiensi pengambilan keputusan administratif.',
     role: 'Fullstack Developer',
     tech: ['PHP', 'MySQL', 'CSS', 'HTML', 'JavaScript'],
