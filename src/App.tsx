@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const projectsData = [
   {
     title: 'Sistem Monitoring dan Evaluasi Kinerja Klinik dengan Metode Performance Dashboard',
-    image: './public/p1.jpg',
+    image: '/ariqfadhilahs/p1.jpg',
     desc: 'Pengembangan dashboard analitik manajemen klinik berbasis metode Performance Dashboard. Mengintegrasikan grafik real-time untuk pemantauan target layanan dan efisiensi pengambilan keputusan administratif.',
     role: 'Fullstack Developer',
     tech: ['PHP', 'MySQL', 'CSS', 'HTML', 'JavaScript'],
@@ -13,7 +13,7 @@ const projectsData = [
   },
   {
     title: 'Website Company Profile Teman Trip V1',
-    image: 'public/p3.png', 
+    image: '/ariqfadhilahs/p3.png', 
     desc: 'Landing page dengan estetika industrial-rustic yang menonjolkan identitas brand kuat melalui tipografi tegas dan alur navigasi yang sederhana namun informatif bagi calon pelancong.',
     role: 'Fullstack Developer',
     tech: ['React', 'Tailwind CSS'],
@@ -21,7 +21,7 @@ const projectsData = [
   },
   {
     title: 'Website Company Profile Teman Trip V2',
-    image: 'public/p2.png',
+    image: '/ariqfadhilahs/p2.png',
     desc: 'Iterasi modern dengan elemen visual abstrak dan palet warna dinamis. Mengedepankan aspek user-centric dengan kartu fitur responsif untuk audiens pelancong muda.',
     role: 'Fullstack Developer',
     tech: ['React', 'Tailwind CSS'],
@@ -29,7 +29,7 @@ const projectsData = [
   },
   {
   title: 'Sistem POS Toko Kelontong Berbasis Web',
-  image: 'public/p4.png',
+  image: '/ariqfadhilahs/p4.png',
   desc: 'Solusi manajemen inventaris retail dengan fitur scan barcode, pemantauan stok kritis otomatis, dan visualisasi tren omzet bulanan untuk optimasi operasional bisnis.',
   role: 'Fullstack Developer',
   tech: ['Laravel', 'MySQL', 'CSS', 'HTML', 'JavaScript'],
@@ -37,7 +37,7 @@ const projectsData = [
   },
   {
   title: 'Web Portofolio Pribadi',
-  image: '/p5.png',
+  image: '/ariqfadhilahs/p5.png',
   desc: 'Website portofolio pribadi yang dirancang sebagai media profesional untuk menampilkan profil, pengalaman, proyek fungsional, keterampilan teknis, serta sertifikasi. Dibangun dengan pendekatan modern dan responsif untuk memberikan pengalaman pengguna yang optimal di berbagai perangkat.',
   role: 'Fullstack Developer',
   tech: ['React', 'Tailwind CSS'],
@@ -105,16 +105,16 @@ const certifications = [
 
 
 const coreSkills = [
-  { name: "PHP", icon: "./public/php.png" },
-  { name: "Laravel", icon: "./public/Laravel.png" },
-  { name: "Tailwind_CSS", icon: "./public/Tailwind_CSS.png" },
-  { name: "CSS", icon: "./public/CSS3.png" },
-  { name: "SQL", icon: "./public/MySQL.png" },
-  { name: "Git", icon: "./public/Git.png" },
-  { name: "HTML", icon: "./public/HTML5.png" },
-  { name: "Javascript", icon: "./public/JavaScript.png" },
-  { name: "React", icon: "./public/React.png" },
-  { name: "Microsoft_Office", icon: "./public/Microsoft_Office.png" },
+  { name: "PHP", icon: "/ariqfadhilahs/php.png" },
+  { name: "Laravel", icon: "/ariqfadhilahs/Laravel.png" },
+  { name: "Tailwind_CSS", icon: "/ariqfadhilahs/Tailwind_CSS.png" },
+  { name: "CSS", icon: "/ariqfadhilahs/CSS3.png" },
+  { name: "SQL", icon: "/ariqfadhilahs/MySQL.png" },
+  { name: "Git", icon: "/ariqfadhilahs/Git.png" },
+  { name: "HTML", icon: "/ariqfadhilahs/HTML5.png" },
+  { name: "Javascript", icon: "/ariqfadhilahs/JavaScript.png" },
+  { name: "React", icon: "/ariqfadhilahs/React.png" },
+  { name: "Microsoft_Office", icon: "/ariqfadhilahs/Microsoft_Office.png" },
 ];
 
 export default function App() {
@@ -189,7 +189,7 @@ export default function App() {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-sky-500 to-indigo-500 rounded-2xl blur opacity-25 transition duration-1000" />
               <img 
-                src="/profile.jpg" 
+                src="/ariqfadhilahs/profile.jpg" 
                 alt="Profile Picture" 
                 className="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-2xl grayscale hover:grayscale-0 transition duration-500" 
               />
@@ -204,7 +204,7 @@ export default function App() {
             </p>
             <Button asChild className="mt-2" variant="default">
               <a
-                href="./public/cv/cv_ariq_fadhilah_saputra.pdf"
+                href="/ariqfadhilahs/public/cv/cv_ariq_fadhilah_saputra.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
