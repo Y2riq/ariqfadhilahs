@@ -101,6 +101,10 @@ const certifications = [
     title: 'Belajar Penerapan Data Science dengan Microsoft Fabric',
     issuer: 'Dicoding Indonesia',
   },
+  {
+    title: 'Membangun Aplikasi Gen AI dengan Microsoft Azure',
+    issuer: 'Dicoding Indonesia',
+  },
 ];
 
 
@@ -204,7 +208,7 @@ export default function App() {
             </p>
             <Button asChild className="mt-2" variant="default">
               <a
-                href="/ariqfadhilahs/public/cv/cv_ariq_fadhilah_saputra.pdf"
+                href="/ariqfadhilahs/public/cv/CV_ariq_fadhilah_saputra.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
