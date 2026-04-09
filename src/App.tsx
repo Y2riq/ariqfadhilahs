@@ -208,7 +208,7 @@ export default function App() {
             </p>
             <Button asChild className="mt-2" variant="default">
               <a
-                href="/ariqfadhilahs/public/cv/CV_ariq_fadhilah_saputra.pdf"
+                href="/ariqfadhilahs/CV_ariq_fadhilah_saputra.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
