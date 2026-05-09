@@ -43,6 +43,14 @@ const projectsData = [
   tech: ['React', 'Tailwind CSS'],
   outcome: 'Menjadi media utama dalam proses melamar pekerjaan dengan menampilkan kompetensi teknis, pengalaman, dan proyek secara jelas sehingga memudahkan recruiter dalam menilai kemampuan dan potensi kandidat.',
   },
+  {
+  title: 'LaporIn',
+  image: '/ariqfadhilahs/p6.png',
+  desc: 'LaporIn adalah aplikasi web untuk mencatat, memantau, dan mengelola tiket laporan/keluhan pengguna secara real-time. Aplikasi ini dirancang untuk membantu tim support atau operasional dalam melacak status tiket, mengukur performa penyelesaian, serta meningkatkan efisiensi penanganan laporan melalui dashboard statistik yang informatif.',
+  role: 'Fullstack Developer',
+  tech: ['Vue.js 3', 'Laravel', 'MySQL', 'RESTful API', 'Tailwind CSS', 'Axios', 'Chart.js'],
+  outcome: 'Membantu tim support dalam memantau dan mengelola tiket laporan secara efisien, meningkatkan responsivitas terhadap keluhan pengguna, serta memberikan wawasan melalui dashboard statistik untuk perbaikan layanan.',
+  },
 ];
 
 const experiences = [
@@ -103,6 +111,22 @@ const certifications = [
   },
   {
     title: 'Membangun Aplikasi Gen AI dengan Microsoft Azure',
+    issuer: 'Dicoding Indonesia',
+  },
+  {
+    title: 'Introduction to Artificial Intelligence',
+    issuer: 'IBM SkillsBuild',
+  },
+  {
+    title: 'Introduction to Generative AI',
+    issuer: 'IBM SkillsBuild',
+  },
+  {
+    title: 'AI Ethics',
+    issuer: 'IBM SkillsBuild',
+  },
+  {
+    title: 'Memulai Pemrograman dengan Python',
     issuer: 'Dicoding Indonesia',
   },
 ];
