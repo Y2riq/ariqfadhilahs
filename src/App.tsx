@@ -51,6 +51,14 @@ const projectsData = [
   tech: ['Vue.js 3', 'Laravel', 'MySQL', 'RESTful API', 'Tailwind CSS', 'Axios', 'Chart.js'],
   outcome: 'Membantu tim support dalam memantau dan mengelola tiket laporan secara efisien, meningkatkan responsivitas terhadap keluhan pengguna, serta memberikan wawasan melalui dashboard statistik untuk perbaikan layanan.',
   },
+  {
+  title: 'MyNews',
+  image: '/ariqfadhilahs/p7.png',
+  desc: 'MyNews adalah aplikasi web berita dan forum diskusi yang memungkinkan pengguna untuk membaca berita terkini, berbagi artikel favorit, dan berdiskusi dengan komunitas. Aplikasi ini dirancang untuk memberikan pengalaman membaca yang nyaman serta memfasilitasi interaksi sosial antar pengguna melalui fitur komentar dan forum diskusi.',
+  role: 'Fullstack Developer',
+  tech: ['Laravel', 'MySQL', 'Filament 5', 'Tailwind CSS'],
+  outcome: 'Membantu pengguna untuk tetap update dengan berita terkini, berbagi artikel favorit, dan berinteraksi dengan komunitas melalui fitur komentar dan forum diskusi yang mudah digunakan.',
+  },
 ];
 
 const experiences = [
